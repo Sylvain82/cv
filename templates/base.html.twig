@@ -7,6 +7,7 @@
         {% block header %}
             <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" href="public/css/style.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
             <!-- MAIN CONTAINER -->
             <div id="main_container">
@@ -25,12 +26,11 @@
                         </ul>
                         <div class="clear"></div>
                         <ul class="header_menu horizontal_list">
-                            <li><a class="no_border purple" href="{{'/'}}">Profil</a></li>
-                            <li><a href="{{'education'}}">Scolarité</a></li>
+                            <li><a href="{{'/'}}">Profil</a></li>
+                            <li><a href="{{'education'}}">Diplômes</a></li>
                             <li><a href="{{ 'competences' }}">Compétences</a></li>
-                            <li><a href="#">Expériences</a></li>
+                            <li><a href="{{ 'experience' }}">Expériences</a></li>
                             <li><a href="#">Projets</a></li>
-                            <li><a href="#">Diplômes</a></li>
                         </ul>
                     </div>
                 </div>
@@ -67,6 +67,7 @@
                             <li><a class="twitter" href="https://github.com/Sylvain82"><span class="entypo-archive"></span><span class="invisible">Github</span></a></li>
                             <li><a class="linkedin" href="https://www.linkedin.com/in/sylvain-garrigues-092113ab"><span class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
                         </ul>
+
                     </div>
                 </div>
                 </div>
@@ -517,7 +518,7 @@
 {% endblock %}
 
 {% block footer %}
-    {#        FOOTER#}
+    {#FOOTER#}
     <div class="clear"></div>
     <!-- FOOTER -->
     <div id="footer">
