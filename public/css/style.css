@@ -611,4 +611,13 @@ li:before {
         margin-top: 0;
     }
 
+    /*header*/
+.logotype_name {
+    font-size: 55px;
+}
+.logotype_occupation {
+    font-size: 40px;
+}
+
+
 }
