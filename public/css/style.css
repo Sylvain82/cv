@@ -444,7 +444,16 @@ li:before {
     display: none;
 }
 
+#profilMobile {
+    display: none;
+}
+
 @media screen and (max-width: 1024px){
+/*Photo profil */
+    #profilMobile {
+        display: block;
+    }
+
 
 
 /*MENU BURGER*/
