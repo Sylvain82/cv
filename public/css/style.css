@@ -628,6 +628,7 @@ li:before {
 
 .logotype_name {
     font-size: 55px;
+    margin: 22px 0 0;
 }
 .logotype_occupation {
     font-size: 40px;
@@ -648,5 +649,17 @@ li:before {
     {
         top: -45px;
         right: -45px;
+    }
+
+    .blockquote, p, a, li {
+        font-size: 32px;
+    }
+
+    .block h2, .block h4, .block p {
+        font-size: 32px;
+    }
+
+    .block h2 {
+        font-size: 40px;
     }
 }
