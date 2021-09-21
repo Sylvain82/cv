@@ -98,7 +98,9 @@
 
 body {
     background: url(https://images.unsplash.com/photo-1542086820-c7deffc43109?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
     background-size: 100%;
 
 }
@@ -377,7 +379,6 @@ li:before {
 .social_icons a {
     font-size: 35px;
     text-decoration: none;
-    color: #000507;
     padding: 0 5px;
 }
 .social_icons a span.invisible {
@@ -443,9 +444,16 @@ li:before {
     display: none;
 }
 
-/*MENU BURGER*/
 @media screen and (max-width: 1024px){
+
+
+/*MENU BURGER*/
+
     .header_menu_container{
+        display: none;
+    }
+
+    #left_col {
         display: none;
     }
 
@@ -457,8 +465,8 @@ li:before {
     {
         display: block;
         position: relative;
-        top: -80px;
-        left: 40px;
+        top: -110px;
+        left: 60px;
         margin-bottom: 20px;
         z-index: 1;
 
@@ -503,9 +511,9 @@ li:before {
     #menuToggle span
     {
         display: block;
-        width: 33px;
-        height: 4px;
-        margin-bottom: 5px;
+        width: 54px;
+        height: 8px;
+        margin-bottom: 8px;
         position: relative;
 
         background: #cdcdcd;
@@ -612,12 +620,33 @@ li:before {
     }
 
     /*header*/
+
+#header {
+    height: 166px;
+    width: 100%;
+}
+
 .logotype_name {
     font-size: 55px;
 }
 .logotype_occupation {
     font-size: 40px;
 }
+/*PAGE PROFIL */
 
+    #content_container {
+        width: 100%;
+    }
+    #content_container p{
+        font-size: 35px;
+    }
 
+    .profile_quote p{
+        width: 100%;
+    }
+    .profile_quote .entypo-quote
+    {
+        top: -45px;
+        right: -45px;
+    }
 }
