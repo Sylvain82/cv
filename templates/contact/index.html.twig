@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Sylvain Garrigues - Contact{% endblock %}
+
+{% block content %}
+ <div class="boxContact">
+    <div class="contact text-center">
+            <div class="profile_picture"></div>
+            <img src="img/photo CV.png" alt="profile picture">
+        </div>
+
+        <div class="contact_details_content">
+            <h2>Contact</h2>
+            <p class="purple">Tél:</p>
+            <p>+33 6 72 48 24 33</p>
+            <p class="purple">Email:</p>
+            <p>sylvain.garrigues31@gmail.com</p>
+            <p class="purple">Adresse:</p>
+            <p>71 chemin d'embrun</p>
+            <p>82370</p>
+            <p>Nohic</p>
+        </div>
+        <a href="mailto:sylvain.garrigues31@gmail.com" class="send_message_button">
+            <span class="cut1"></span>
+            <span class="cut2"></span>
+            <span class="content">Me contacter <span class="fontawesome-double-angle-right"></span></span>
+        </a>
+     <br>
+        <div class="get_social_content">
+            <h2>Réseaux sociaux</h2>
+            <ul class="social_icons horizontal_list text-center">
+                {#                    <li><a class="facebook" href="https://www.facebook.com/jlalovi"><span class="entypo-facebook-circled"></span><span class="invisible">Facebook</span></a></li>#}
+                <li><a class="twitter" href="https://github.com/Sylvain82"><span class="entypo-archive"></span><span class="invisible">Github</span></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/in/sylvain-garrigues-092113ab"><span class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
+            </ul>
+
+        </div>
+ </div>
+{% endblock %}

@@ -448,6 +448,10 @@ li:before {
     display: none;
 }
 
+.boxContact {
+    display: none;
+}
+
 @media screen and (max-width: 1024px){
 /*Photo profil */
     #profilMobile {
@@ -671,4 +675,14 @@ li:before {
     .block h2 {
         font-size: 40px;
     }
+
+    /*PAGE CONTACT*/
+
+    .boxContact {
+        display: block;
+        width: 60%;
+        margin : 0 auto;
+    }
+
+
 }
